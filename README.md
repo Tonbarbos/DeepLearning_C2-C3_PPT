@@ -1,6 +1,6 @@
 # Pedra, papel e tesoura com MediaPipe
 
-**▶ Jogar: <https://tonbarbos.github.io/DeepLearning_C3_PPT/>**
+**▶ Jogar: <https://tonbarbos.github.io/DeepLearning_C2-C3_PPT/>**
 
 Aplicação web que reconhece pedra, papel e tesoura a partir dos 21 pontos da
 mão detectados pelo **MediaPipe Hand Landmarker** (API Tasks para Web). Depois
@@ -15,7 +15,7 @@ Trabalho 2 (C2) — Visão Computacional · Computação · FAESA · 2026/2.
 
 ## Jogando pelo navegador
 
-1. Abra <https://tonbarbos.github.io/DeepLearning_C3_PPT/>.
+1. Abra <https://tonbarbos.github.io/DeepLearning_C2-C3_PPT/>.
 2. Autorize o acesso à câmera quando o navegador pedir.
 3. Mostre a mão: depois de um instante a contagem de 3 começa sozinha.
 4. Faça o gesto antes do fim da contagem e **segure** — a jogada é travada pela
@@ -32,7 +32,7 @@ modelo) e guarda em cache; as visitas seguintes abrem na hora.
 ### Sem webcam
 
 ```
-https://tonbarbos.github.io/DeepLearning_C3_PPT/?teste=1
+https://tonbarbos.github.io/DeepLearning_C2-C3_PPT/?teste=1
 ```
 
 Esse modo substitui a câmera por uma mão sintética que percorre os três gestos e
@@ -54,8 +54,8 @@ Só é necessário para desenvolver ou para rodar os testes. Como a câmera exig
 contexto seguro, é preciso servir a pasta — `localhost` conta como seguro:
 
 ```bash
-git clone https://github.com/Tonbarbos/DeepLearning_C3_PPT.git
-cd DeepLearning_C3_PPT
+git clone https://github.com/Tonbarbos/DeepLearning_C2-C3_PPT.git
+cd DeepLearning_C2-C3_PPT
 python -m http.server 8000
 ```
 
@@ -130,7 +130,7 @@ jogo sem tocar na parte de visão computacional, e o contrário também vale.
 O projeto é estático — sem build, sem bundler, sem `npm install`. É por isso que
 o GitHub Pages consegue servi-lo direto da branch `main`, sem nenhuma etapa de
 publicação. Todos os caminhos são relativos, então o site funciona no subcaminho
-`/DeepLearning_C3_PPT/` sem ajuste.
+`/DeepLearning_C2-C3_PPT/` sem ajuste.
 
 ## Caminho para a C3
 
